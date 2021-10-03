@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.hotelsList {
+  position: relative;
+  padding: 3% 2% 5% 2%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.pageBody {
+  width: 100%;
+  min-width: 25%;
+  padding-left: 2%;
+  padding-right: 2%;
+}

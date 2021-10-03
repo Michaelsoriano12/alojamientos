@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.filters {
+  width: 100%;
+  background-color: blue;
+  display: flex;
+  color: red;
+}
+.dates {
+  width: 100%;
+  display: flex;
+  align-content: space-around;
+  margin: 1%;
+}
+.date-style {
+  width: content-box;
+  height: 25px;
+}
+
+.date-filter {
+  padding: 5px;
+  width: 100%;
+}
+.reset-button {
+  transition-duration: 0.4s;
+  background-color: #dcdcdc;
+  border: none;
+  color: #000000;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.reset-button:hover {
+  background: red;
+  color: #ffffff;
+}
+.select-country {
+  width: 100%;
+  background: white;
+}
+
+.select-price {
+  width: 100%;
+  background: white;
+}
+
+.select-size {
+  width: 100%;
+  background: white;
+}

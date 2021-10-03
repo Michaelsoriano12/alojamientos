@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.date-error {
+  display: flex;
+  border-width: 1px;
+  border-style: solid;
+  border-color: darkred;
+}
+.message {
+  color: black;
+  font-family: Arial;
+  font-style: italic;
+}
+.error-button {
+  background-color: lightgreen;
+}
